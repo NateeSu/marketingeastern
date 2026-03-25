@@ -112,7 +112,7 @@ export default function App() {
                 Marketing Eastern
               </h1>
               <p className="text-xs font-medium" style={{ color: '#fcd34d' }}>
-                ระบบจัดการเอกสารกลาง
+                ระบบจัดการข้อมูลการตลาด
               </p>
             </div>
           </div>
