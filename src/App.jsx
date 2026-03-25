@@ -20,9 +20,9 @@ function useDebounce(value, delay) {
 
 export default function App() {
   const STATIC_FOLDERS = [
-    { name: 'ศูนย์บริหารข้อมูลลูกค้าและหนี้ (นตลอป.)', link: 'https://drive.google.com/drive/folders/1dYdCvLrzBkXKIaJ_WJvsCBrOiTQiA_ZU?usp=sharing', icon: '📈', status: 'show' },
-    { name: 'ศููนย์บริหารโครงการและลูกค้าองค์กร (อตลอป.)', link: 'https://drive.google.com/drive/folders/1GYATTzfuTRG42pVuWmNr9Bsmx1LAUcYr?usp=sharing', icon: '📈', status: 'show' },
-    { name: 'ศูนย์์บริหารงานลูกค้าทั่วไปและประชาสัมพันธ์ (ทตลอป.)', link: 'https://drive.google.com/drive/folders/1qMcn9AjIBNz0gWOH4gH2onHSbouSEKgs?usp=sharing', icon: '📈', status: 'show' },
+    { name: '(นตลอป.)', link: 'https://drive.google.com/drive/folders/1dYdCvLrzBkXKIaJ_WJvsCBrOiTQiA_ZU?usp=sharing', icon: '📈', status: 'show' },
+    { name: '(อตลอป.)', link: 'https://drive.google.com/drive/folders/1GYATTzfuTRG42pVuWmNr9Bsmx1LAUcYr?usp=sharing', icon: '📈', status: 'show' },
+    { name: '(ทตลอป.)', link: 'https://drive.google.com/drive/folders/1qMcn9AjIBNz0gWOH4gH2onHSbouSEKgs?usp=sharing', icon: '📈', status: 'show' },
   ]
   const [folders] = useState(STATIC_FOLDERS.filter((f) => f.status === 'show'))
   const foldersLoading = false
